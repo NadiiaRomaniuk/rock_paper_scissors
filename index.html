@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="first.css">
+    <link rel="stylesheet" href="second.css">
+    <link rel="stylesheet" href="third.css">
+    <script src='http://use.edgefonts.net/nosifer.js'></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+    </style>
+
+    <title>Game</title>
+</head>
+<body>
+    <div class="total">
+
+        <article class="first-container">
+            <h1 id="first-heading">The Game</h1>
+            <div class="first-changing">
+                <div id="first-text-wrapper">
+                    <p id="first-text">   </p>
+                </div>
+                <div id="first-buttons">
+                    <button class="first-button noo" id="no">Not really</button>
+                    <button class="first-button yess" id="yes">Yes</button>
+                </div>
+                <div id="first-wrapper">
+                    <button class="first-button play" id="play">Play</button>
+                </div>
+            </div>
+        </article>
+
+
+
+        <article class="second-container">
+            <div class="second-wrapper">
+                <div class="second-images">
+                    <img src="images/stone.png" alt="stone" class="images" id="stone">
+                    <img src="images/scissors.png" alt="scissors" class="images" id="scissors">
+                    <img src="images/file.png" alt="paper" class="images" id="paper">
+                </div>
+                <div class="second-score">
+                    <h2 class="score" id="human">0</h2>
+                    <h2 class="score">:</h2>
+                    <h2 class="score" id="machine">0</h2>
+                </div>
+                <div class="second-computer-image-wrapper">
+                    <img src="images/robot-assistant (3).png" alt="computer" id="computer">
+                </div> 
+            </div>
+        </article>
+
+        <article id="third-one-container">
+            <div class="third-one-total">
+                <p id="third-one-par">You lost</p>
+                <button id="third-one-button">
+                    Try again?
+                </button>
+            </div>
+        </article>
+
+        <article id="third-two-container">
+            <div class="third-two-total">
+                <p id="third-two-par">You won</p>
+                <button id="third-two-button">
+                    Try again?
+                </button>
+            </div>
+        </article>
+        
+    </div>
+    
+    
+
+
+    <script src="first.js"></script>
+    <script src="second.js"></script>
+    <script src="third.js"></script>
+</body>
+</html>

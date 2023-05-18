@@ -1,0 +1,84 @@
+#third-one-container {
+    background-color: rgb(216, 24, 24);
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+    height: 100svh;
+}
+
+.third-one-total {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#third-one-par {
+    font-family:  'Nosifer', cursive;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+#third-one-button {
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    background-color:  rgb(216, 24, 24);
+    border: solid rgb(255, 255, 255) 3px;
+    padding: 7px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',Verdana, sans-serif;
+    height: fit-content;
+    align-self: center;
+}
+
+@media screen and (max-width: 330px) {
+    #third-one-par {
+        font-size: 25px;
+    }
+
+    #third-two-par {
+        font-size: 25px;
+    }
+}
+
+
+#third-two-container {
+    background-color: rgb(93, 194, 46);
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+    height: 100svh;
+}
+
+
+.third-two-total {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#third-two-par {
+    font-family:  'Nosifer', cursive;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+#third-two-button {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: bolder;
+    background-color: rgb(93, 194, 46);
+    border: solid rgb(255, 255, 255) 3px;
+    padding: 7px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',Verdana, sans-serif;
+    height: fit-content;
+    align-self: center;
+}
+
